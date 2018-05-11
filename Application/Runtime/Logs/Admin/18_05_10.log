@@ -1,0 +1,291 @@
+[ 2018-05-10T07:26:36+08:00 ] 123.116.88.73 /thinkphp/admin.php/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+ERR: 无法加载控制器:Admin
+
+[ 2018-05-10T07:26:39+08:00 ] 123.116.88.73 /thinkphp/admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2018-05-10T07:40:21+08:00 ] 123.116.88.73 /thinkphp/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2018-05-10T07:46:03+08:00 ] 123.116.88.73 /thinkphp/admin.php/article/testtrans
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `my_user`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2018-05-10T08:45:39+08:00 ] 123.116.88.73 /thinkphp/admin.php/article/testtrans
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+ERR: syntax error, unexpected '；' (T_STRING), expecting ',' or ';'
+
+[ 2018-05-10T08:45:53+08:00 ] 123.116.88.73 /thinkphp/admin.php/article/testtrans
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.0007s ]
+SQL: INSERT INTO `my_user` (`username`,`fullname`,`password`,`email`) VALUES ('zhuziyu','朱子昱','123456','13726237743@163.com') [ RunTime:0.0004s ]
+SQL: INSERT INTO `my_user` (`username`,`fullname`,`password`,`email`) VALUES ('zhuziyu','朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱','123456','13726237743@163.com') [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2018-05-10T08:46:28+08:00 ] 123.116.88.73 /thinkphp/admin.php/article/testtrans
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.0009s ]
+SQL: INSERT INTO `my_user` (`username`,`fullname`,`password`,`email`) VALUES ('zhuziyu','朱子昱','123456','13726237743@163.com') [ RunTime:0.0002s ]
+SQL: INSERT INTO `my_user` (`username`,`fullname`,`password`,`email`) VALUES ('zhuziyu','朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱','123456','13726237743@163.com') [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2018-05-10T08:47:17+08:00 ] 123.116.88.73 /thinkphp/admin.php/article/testtrans
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.0031s ]
+SQL: INSERT INTO `my_user` (`username`,`fullname`,`password`,`email`) VALUES ('zhuziyu','朱子昱','123456','13726237743@163.com') [ RunTime:0.0003s ]
+SQL: INSERT INTO `my_user` (`username`,`fullname`,`password`,`email`) VALUES ('zhuziyu','朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱朱子昱','123456','13726237743@163.com') [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2018-05-10T08:48:13+08:00 ] 123.116.88.73 /thinkphp/admin.php/article/testtrans
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.0009s ]
+SQL: INSERT INTO `my_user` (`username`,`fullname`,`password`,`email`) VALUES ('zhuziyu','朱子昱','123456','13726237743@163.com') [ RunTime:0.0003s ]
+SQL: INSERT INTO `my_user` (`username`,`fullname`,`password`,`email`,`createtime`) VALUES ('zhuziyu','朱子昱朱子昱','123456','13726237743@163.com','0') [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2018-05-10T08:51:43+08:00 ] 123.116.88.73 /thinkphp/admin.php/article/testtrans
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.0007s ]
+SQL: INSERT INTO `my_user` (`username`,`fullname`,`password`,`email`) VALUES ('zhuziyu','朱子昱','123456','13726237743@163.com') [ RunTime:0.0003s ]
+SQL: INSERT INTO `my_user` (`username`,`fullname`,`password`,`email`,`createtime`) VALUES ('zhuziyu','朱子昱朱子昱','123456','13726237743@163.com','0') [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2018-05-10T08:52:22+08:00 ] 123.116.88.73 /thinkphp/admin.php/article/testtrans
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.0012s ]
+SQL: INSERT INTO `my_user` (`username`,`fullname`,`password`,`email`) VALUES ('zhuziyu','朱子昱','123456','13726237743@163.com') [ RunTime:0.0004s ]
+SQL: INSERT INTO `my_user` (`username`,`fullname`,`password`,`email`,`createtime`) VALUES ('zhuziyu','朱子昱朱子昱','123456','13726237743@163.com','0') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2018-05-10T08:52:48+08:00 ] 123.116.88.73 /thinkphp/admin.php/article/testtrans
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.0010s ]
+SQL: INSERT INTO `my_user` (`username`,`fullname`,`password`,`email`) VALUES ('zhuziyu','朱子昱','123456','13726237743@163.com') [ RunTime:0.0003s ]
+SQL: INSERT INTO `my_user` (`username`,`fullname`,`password`,`email`,`createtime`) VALUES ('zhuziyu','朱子昱朱子昱','123456','13726237743@163.com','0') [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2018-05-10T18:52:51+08:00 ] 123.125.71.69 /thinkphp/admin.php/category/?__hash__=2a4725c8a291a2b540645b18d0ad0e9f_cef0862a5be840ddd827df3f42ab6e7f&cate_name=a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `my_category` WHERE ( catg_name like '%a%' )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_category` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2018-05-10T19:04:19+08:00 ] 123.125.71.25 /thinkphp/admin.php/category/editcat/cid/8?__hash__=f567fa0766e32bc58fad54602c1a9d8d_6562f7647478886132ba4a0d944d3a8f&catg_name=phpredis&catg_parent=6&catid=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `my_category` WHERE `id` = 8  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2018-05-10T19:09:35+08:00 ] 123.125.71.17 /thinkphp/admin.php/category/editcat/cid/8?__hash__=fb1abfbc528a25367df580d52bae9ede_f5d0926f66f50de2bb6b53920a027a30&catg_name=phpredis&catg_parent=6&catid=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `my_category` WHERE `id` = 8  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2018-05-10T19:09:36+08:00 ] 123.125.71.24 /thinkphp/admin.php/category/editcat/cid/8?__hash__=3ee08f47641ff206b965d5f60bfc53e1_5bab1659c414606f0c1f567eb457e54d&catg_name=phpredis&catg_parent=6&catid=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_category` WHERE `id` = 8  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `my_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2018-05-10T19:17:54+08:00 ] 123.125.71.41 /thinkphp/admin.php/category/?__hash__=613555e62dbb5d454828b9f89804f2c1_a2d1baa58cd239bb3629b7d7fe9f0d58&cate_name=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `my_category`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_category` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
